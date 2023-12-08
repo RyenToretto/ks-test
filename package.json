@@ -11,12 +11,14 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "xh-report": "npm update xh-report"
   },
   "dependencies": {
     "pinia": "^2.1.7",
     "vue": "^3.3.10",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "xh-report": "file:xh-report-1.1.1.tar.gz"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.3.3",
